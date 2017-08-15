@@ -14,7 +14,7 @@ img.onclick= function(){
 
 //submit name
 var nameInput = document.getElementById('name');
-var name =nameInput.value;
+//var name =nameInput.value;
 var submit= document.getElemntById('submit-btn');
 submit.onclick = function() {
     //make a request to the server and send the name
